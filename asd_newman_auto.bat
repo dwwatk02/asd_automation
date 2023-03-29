@@ -1,5 +1,5 @@
 rem ** start appscan traffic recorer proxy
-START "" "C:\Program Files (x86)\HCL\AppScan Standard\AppscanCMD.exe" /scan_template "C:\Users\appscanadmin\Documents\Appscan\apiv2.scant" /d "C:\Users\appscanadmin\Documents\Appscan\apiv7.scan" /to /mmer /opr /lp "3033"
+START "" "C:\Program Files (x86)\HCL\AppScan Standard\AppscanCMD.exe" /scan_template "C:\Users\appscanadmin\Documents\Appscan\apiv2.scant" /d "C:\Users\appscanadmin\Documents\Appscan\api.scan" /to /mmer /opr /lp "3033"
 
 rem ** sleep 60 seconds to allow proxy time to start
 timeout /t 60
